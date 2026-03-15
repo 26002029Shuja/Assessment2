@@ -17,3 +17,6 @@ def play(user):
         result = "You lose!"
 
     messagebox.showinfo("Result", f"Computer chose {computer}\n{result}")
+
+root = tk.Tk()
+root.title("Rock Paper Scissors")
