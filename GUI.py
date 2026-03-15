@@ -29,3 +29,4 @@ tk.Button(root, text="Scissors", command=lambda: play("scissors")).pack()
 tk.Button(root, text="Quit", command=root.destroy).pack()
 
 root.mainloop()
+#Complete game to play
