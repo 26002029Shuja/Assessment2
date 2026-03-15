@@ -20,3 +20,12 @@ def play(user):
 
 root = tk.Tk()
 root.title("Rock Paper Scissors")
+
+
+tk.Label(root, text="Choose Rock Paper or Scissors").pack()
+tk.Button(root, text="Rock", command=lambda: play("rock")).pack()
+tk.Button(root, text="Paper", command=lambda: play("paper")).pack()
+tk.Button(root, text="Scissors", command=lambda: play("scissors")).pack()
+tk.Button(root, text="Quit", command=root.destroy).pack()
+
+root.mainloop()
